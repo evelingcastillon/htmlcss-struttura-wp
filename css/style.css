@@ -91,3 +91,7 @@ main{
     height: 150px;
     float: left;
 }
+footer {
+    background-color: teal;
+    height: 50px;
+}
