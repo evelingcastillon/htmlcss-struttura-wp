@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: aqua;
+}
+
+header{
+    height: 500px;
+}
+.logo{
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    margin-top: 10px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border-radius: 10px;
+}
+
